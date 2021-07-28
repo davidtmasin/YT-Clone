@@ -208,3 +208,17 @@ header{
     height: 36px;
     background-color: #aaa;
 }
+
+@media(max-width: 767px){
+    .menu-icons a{
+        display: none;
+    }
+    .search-input{
+        width: 100px
+    }
+
+    #searchBtn{
+        padding: 0;
+    }
+    
+}
