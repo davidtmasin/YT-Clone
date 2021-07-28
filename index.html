@@ -16,30 +16,30 @@
   </head>
   <body>
       <header>
-          <a href="#">
+          <a href="index.html">
               <img src="images/logoYT.png" alt="Youtube Logo" class="youtube-logo">
           </a>
-          <form action="" class="search-bar">
-              <input type="search" class="search-input" placeholder="Search" aria-label="Search" />
-                <button type="submit" class="search-btn">
+          <form method="get" action="https://youtube.com/search?q=" class="search-bar">
+              <input type="text" name="search" id="YT-search" class="search-input" placeholder="Search" aria-label="Search" />
+                <button type="submit" name="search" id="btn-search" class="search-btn">
                     <img src="images/magnify.svg" width="30px">
                 </button>
           </form>
           <div class="menu-icons">
-              <a href="#">
+              <a href="https://studio.youtube.com/channel/UCrgRULlep_RyJJ7zVA-cRyQ/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D">
                   <img src="images/videoplus.png" alt="Upload Video" width="30px">
               </a>
 
-              <a href="#">
+              <a href="https://linktr.ee/davidtmasin">
                   <img src="images/apps.png" alt="Apps" width="30px">
               </a>
 
-              <a href="#">
+              <a href="https://www.youtube.com/account_notifications">
                   <img src="images/bell.png" alt="Notifications" width="30px">
               </a>
 
-              <a href="#">
-                <img class="menu-channel-icon" src="https://unavatar.now.sh/github/davidtmasin" alt="Your Channel" width="36px">
+              <a href="https://www.youtube.com/channel/UCrgRULlep_RyJJ7zVA-cRyQ">
+                <img class="menu-channel-icon" src="https://unavatar.now.sh/github/davidtmasin" alt="TD Educação Channel" width="36px">
             </a>
           </div>
       </header>
@@ -122,7 +122,7 @@
                     </a>
 
                     <div class="video-details">
-                        <a href="#" class="video-title">Vídeo Title</a>
+                        <a href="#" class="video-title">AULA 11 - PROC TEXTOS - SÁB 07:50</a>
                         <a href="#" class="video-channel-name">David Teixeira</a>
 
                         <div class="video-metadata">
@@ -136,9 +136,9 @@
 
             <!-- Outro vídeo -->
             <article class="video-container">
-                <a href="#" class="thumbnail" 
+                <a href="https://youtu.be/mQwBE6wuAJk" class="thumbnail" 
                 data-duration="12:24">
-                    <img class="thumbnail-image" src="https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/6092de520a13c.jpg" alt="">                
+                    <img class="thumbnail-image" src="https://img.youtube.com/vi/mQwBE6wuAJk/hqdefault.jpg" alt="AULAS 03 e 04 - PROC TEXTOS - SÁB 14:30" title="AULAS 03 e 04 - PROC TEXTOS - SÁB 14:30">                
                 </a>
                 
                 <div class="video-bottom-section">
@@ -147,7 +147,7 @@
                     </a>
 
                     <div class="video-details">
-                        <a href="#" class="video-title">Vídeo Title</a>
+                        <a href="#" class="video-title">AULAS 03 e 04 - PROC TEXTOS - SÁB 14:30</a>
                         <a href="#" class="video-channel-name">David Teixeira</a>
 
                         <div class="video-metadata">
@@ -211,5 +211,6 @@
             
           </section>
       </div>
+      <script src="script/script.js"></script>
   </body>
 </html>
